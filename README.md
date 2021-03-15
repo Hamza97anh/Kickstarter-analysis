@@ -11,12 +11,12 @@ Performing analysis on Kickstarter data to uncover trends
 
 ### Analysis of Outcomes Based on Launch Date
   For the Outomes Based on Launch Date we created a new column for year using code "=Year()". This was necassary for out next step where we creat a pivot table to that we can then use to make a chart. The "Years" Column is used to add filters if needed for our chart. In our Pivot table we used the "Parent_Catagory" and "Years" for the filters. "Outcomes" for the Columns, "Date_Created_Conversion" for the rows and the "Count_of_Outcomes" for the values. From this we filtered for "theater" in the "Parent_Category" filter which we then made a line chart from.
-![Outcomes_Based_on_Launch_Sheet_Screenshot.png](This_PC/Desktop/Stuff/school/DATA_CLASS/Challange_1/Outcomes_Based_on_Launch_Sheet_Screenshot.png)
+![Outcomes_Based_on_Launch_Sheet_Screenshot](This_PC/Desktop/Stuff/school/DATA_CLASS/Challange_1/Outcomes_Based_on_Launch_Sheet_Screenshot.png)
   At a first glance at the chart we can see that the summer months have the highest rate of success for theater type kickstarters. Failuar numbers stay pretty steady much like the canceled number wich also stay pretty consistent with a flat curve.
 
 ### Analysis of Outcomes Based on Goals
   For the Outcomes Based on Goals Chart we created a new sheet where we wrote down data solutions taken from the Kickstarter sheet. Using the "=COUNTIFS()" functions we found the number of Successful, Failed and canceled projects at different Project Goal ranges. We then used "=SUM()" to find the total number of projects from all three catagories at different Goal ranges. Finally we found the percentages using a simple division formula followed by using the "%" in the tool bar. Once we had our data it was time to make a chart so we used the pivot table function to make a table that we could thenuse to make a chart. The table used the "Goal" as the Axis, and the Values were the Percentages of the three outcomes we had. 
-![Outcomes_Based_on_Goals_Screenshot.png](This_PC/Desktop/Stuff/school/DATA_CLASS/Challange_1/Outcomes_Based_on_Goals_Screenshot.png)
+![Outcomes_Based_on_Goals_Screenshot](This_PC/Desktop/Stuff/school/DATA_CLASS/Challange_1/Outcomes_Based_on_Goals_Screenshot.png)
   At first glance we can see an intresting curve. The data intercepets at the three differnet points; first it intercepts at the 20000 mark where the failed rate starts exceeding the success rate. Then it flips back in favor for success at the 35000 to 40000 mark but shortly changing back at the 45000 mark. 
 ### Challenges and Difficulties Encountered
 
