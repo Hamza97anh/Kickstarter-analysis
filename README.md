@@ -11,7 +11,7 @@ Performing analysis on Kickstarter data to uncover trends
 
 ### Analysis of Outcomes Based on Launch Date
   For the Outomes Based on Launch Date we created a new column for year using code "=Year()". This was necassary for out next step where we creat a pivot table to that we can then use to make a chart. The "Years" Column is used to add filters if needed for our chart. In our Pivot table we used the "Parent_Catagory" and "Years" for the filters. "Outcomes" for the Columns, "Date_Created_Conversion" for the rows and the "Count_of_Outcomes" for the values. From this we filtered for "theater" in the "Parent_Category" filter which we then made a line chart from.
-![Outcomes_Based_on_Launch_Sheet_Screenshot](This_PC/Desktop/Stuff/school/DATA_CLASS/Challange_1/Outcomes_Based_on_Launch_Sheet_Screenshot.png)
+![Outcomes_Based_on_Launch_Sheet_Screenshot](C:/Users/hamza/Desktop/Stuff/school/DATA_CLASS/Challange_1/Outcomes_Based_on_Launch_Sheet_Screenshot.png)
   At a first glance at the chart we can see that the summer months have the highest rate of success for theater type kickstarters. Failuar numbers stay pretty steady much like the canceled number wich also stay pretty consistent with a flat curve.
 
 ### Analysis of Outcomes Based on Goals
